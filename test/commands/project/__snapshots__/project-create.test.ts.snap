@@ -3,25 +3,25 @@ export const snapshot = {};
 snapshot[`Project Create Command - Help Text 1`] = `
 stdout:
 "
-\\x1b[1mUsage:\\x1b[22m \\x1b[95mcreate\\x1b[39m
+Usage: create
 
-\\x1b[1mDescription:\\x1b[22m
+Description:
 
   Create a new Linear project
 
-\\x1b[1mOptions:\\x1b[22m
+Options:
 
-  \\x1b[94m-h\\x1b[39m, \\x1b[94m--help\\x1b[39m                        \\x1b[31m\\x1b[1m-\\x1b[22m\\x1b[39m Show this help.                                                          
-  \\x1b[94m-n\\x1b[39m, \\x1b[94m--name\\x1b[39m         \\x1b[33m<\\x1b[39m\\x1b[95mname\\x1b[39m\\x1b[33m>\\x1b[39m         \\x1b[31m\\x1b[1m-\\x1b[22m\\x1b[39m Project name (required)                                                  
-  \\x1b[94m-d\\x1b[39m, \\x1b[94m--description\\x1b[39m  \\x1b[33m<\\x1b[39m\\x1b[95mdescription\\x1b[39m\\x1b[33m>\\x1b[39m  \\x1b[31m\\x1b[1m-\\x1b[22m\\x1b[39m Project description                                                      
-  \\x1b[94m-t\\x1b[39m, \\x1b[94m--team\\x1b[39m         \\x1b[33m<\\x1b[39m\\x1b[95mteam\\x1b[39m\\x1b[33m>\\x1b[39m         \\x1b[31m\\x1b[1m-\\x1b[22m\\x1b[39m Team key (required, can be repeated for multiple teams)                  
-  \\x1b[94m-l\\x1b[39m, \\x1b[94m--lead\\x1b[39m         \\x1b[33m<\\x1b[39m\\x1b[95mlead\\x1b[39m\\x1b[33m>\\x1b[39m         \\x1b[31m\\x1b[1m-\\x1b[22m\\x1b[39m Project lead (username, email, or @me)                                   
-  \\x1b[94m-s\\x1b[39m, \\x1b[94m--status\\x1b[39m       \\x1b[33m<\\x1b[39m\\x1b[95mstatus\\x1b[39m\\x1b[33m>\\x1b[39m       \\x1b[31m\\x1b[1m-\\x1b[22m\\x1b[39m Project status (planned, started, paused, completed, canceled, backlog)  
-  \\x1b[94m--start-date\\x1b[39m       \\x1b[33m<\\x1b[39m\\x1b[95mstartDate\\x1b[39m\\x1b[33m>\\x1b[39m    \\x1b[31m\\x1b[1m-\\x1b[22m\\x1b[39m Start date (YYYY-MM-DD)                                                  
-  \\x1b[94m--target-date\\x1b[39m      \\x1b[33m<\\x1b[39m\\x1b[95mtargetDate\\x1b[39m\\x1b[33m>\\x1b[39m   \\x1b[31m\\x1b[1m-\\x1b[22m\\x1b[39m Target completion date (YYYY-MM-DD)                                      
-  \\x1b[94m--initiative\\x1b[39m       \\x1b[33m<\\x1b[39m\\x1b[95minitiative\\x1b[39m\\x1b[33m>\\x1b[39m   \\x1b[31m\\x1b[1m-\\x1b[22m\\x1b[39m Add to initiative immediately (ID, slug, or name)                        
-  \\x1b[94m-i\\x1b[39m, \\x1b[94m--interactive\\x1b[39m                 \\x1b[31m\\x1b[1m-\\x1b[22m\\x1b[39m Interactive mode (default if no flags provided)                          
-  \\x1b[94m-j\\x1b[39m, \\x1b[94m--json\\x1b[39m                        \\x1b[31m\\x1b[1m-\\x1b[22m\\x1b[39m Output created project as JSON                                           
+  -h, --help                        - Show this help.                                                          
+  -n, --name         <name>         - Project name (required)                                                  
+  -d, --description  <description>  - Project description                                                      
+  -t, --team         <team>         - Team key (required, can be repeated for multiple teams)                  
+  -l, --lead         <lead>         - Project lead (username, email, or @me)                                   
+  -s, --status       <status>       - Project status (planned, started, paused, completed, canceled, backlog)  
+  --start-date       <startDate>    - Start date (YYYY-MM-DD)                                                  
+  --target-date      <targetDate>   - Target completion date (YYYY-MM-DD)                                      
+  --initiative       <initiative>   - Add to initiative immediately (ID, slug, or name)                        
+  -i, --interactive                 - Interactive mode (default if no flags provided)                          
+  -j, --json                        - Output created project as JSON                                           
 
 "
 stderr:
